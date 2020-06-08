@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ACM CHITKARA CHAPTER</title>
+  <link type="png" rel="icon" href="./images/acm_chapter_sym-hires.png"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- For Google Maps Api **********************************************************-->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGQ3ZlViy7K0B4sJydgQqQc6Dxxm4ksjk&callback=initMap">
+  </script>
+  <script>
+    function initMap() {
+      var uluru = {lat: 30.516088, lng: 76.659460};
+      var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 16, center: uluru});
+      var marker = new google.maps.Marker({position: uluru, map: map});
+    }
+  </script>
+
+<style type="text/css">
+	.a1 {
+    color:black;
+    text-decoration: none;
+}
+
+.a1:hover 
+{
+     color:white; 
+     text-decoration:none; 
+     cursor:pointer;  
+}</style>
+
+
+<!-- ******************************************************************************-->
+</head>
+<body  style="max-width: 100%">
+<nav class="navbar navbar-expand-md bg-white fixed-top">
+  <a class="navbar-brand" href="index.html">
+    <img src="./images/acm_chapter_sym-hires.png"/ height="80" width="80">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <form class="form-inline ml-auto">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <button class="btn nav-btn btn-info active shadow">&emsp;<a class="a1" href="index.html" style="color: white;">Home</a>&emsp;</button>
+          &nbsp;
+        </li>
+        <li class="nav-item">
+         <button class="btn nav-btn btn-info shadow">&emsp; <a class="a1"  href="#aboutus">About Us</a>&emsp;</button>
+
+          &nbsp;
+        </li>
+
+        <li class="nav-item">
+          <button class="btn nav-btn btn-info shadow">&emsp;<a class="a1"  href="#events">Events</a>&emsp;</button></a>
+          &nbsp;
+        </li>
+       
+      
+        <li class="nav-item">
+         <button class="btn nav-btn btn-info shadow">&emsp; <a class="a1"  href="#officebearers">Office Bearers</a>&emsp;</button>
+          &nbsp;
+        </li>
+        <li class="nav-item">
+          <button class="btn nav-btn btn-info shadow">&emsp;<a class="a1"  href="#contact">Contact</a>&emsp;</button>
+          &nbsp;
+        </li>
+      </ul>
+    </form>
+  </div> 
+</nav>
+<br><br><br><br>
+<div class="container-fluid">
+  <div class="media row" style="margin-bottom: 80px">
+    <div class="media-body col-lg-6 col-xs-12 col-sm-12">
+      <br>
+      <p style="text-align: center;font-size: 2.5rem">
+        WELCOME TO THE MOST DISTINCT <b>CODING CLUB</b> OF <b>CHITKARA UNIVERSITY</b>
+      </p>
+    </div>
+    <div class="media-right col-lg-6 col-xs-12 col-sm-12">
+      <img src="./images/undraw_coding_6mjf.png" class="media-object img-fluid" width="400px" height="300px" style="max-width:90%; height: auto">
+    </div>
+  </div>
+
+
+  <div class="media row" style="margin-bottom: 80px" id="aboutus" name="aboutus">
+    <div class="media-left col-lg-6 col-sm-12 col-xs-12">
+      <img src="./images/undraw_team_spirit_hrr4.png" class="media-object img-fluid img-responsive">
+    </div>
+    <div class="media-body col-lg-6 col-sm-12 col-xs-12" >
+      <h1 style="text-align: center">WHO ARE WE?</h1>
+      <p style="font-size: 1.2rem;text-align: center">
+        Chitkara University's ACM Student Chapter chartered on 28 February in 2010 and the chapter commenced on March 8 in the same year. The chapter was initiated with a goal to generate curiosity among the students for impending technologies in computer science apart from the regular course content. The chapter constantly endeavers to amplify the practical expertise of its members through expert talks, industry-oriented hands-on courses, workshop, industrial visits, quizzes and debugging and coding competetions. It is the combbination of dedication,hard work and hunger for achieving perfection, along with the utmost sincerity shown by the team that makes our chapter the best. Our team is not just a team, rather we see ourselves as a family of around 800 members who are working constantly not only towards the growth of our chapter but also towards growth of inner-self and overall personality.
+      </p>
+    </div>
+  </div>
+
+<!-- Events -->
+
+
+  <div  >
+  	<center>
+  		<h1>EVENTS & WORKSHOPS</h1>
+  		<p>Come On, We all know events are the best part of college life</p>
+    </center>
+    <div class="row" style="margin-bottom: 80px">
+      <div class="col-lg-6 col-sm-12 col-xs-12">
+  		  <center>
+          <h3 class="text-info">UPCOMING EVENTS</h3>
+        </center>
+  		  <center>
+          <div class="join-panel panel shadow">
+  				  <div class="panel-body">
+              <img src="./images/559451.png" width="100%">
+  				    <h4 class="text-primary">WORKSHOP ON DATA SCIENCES</h4>
+  				    <table>
+  						  <tr>
+  				        <td align="left" rowspan="2"><img src="./images/sm_5b09436fd0515.png" style="height: 50px;width: 50px" /></td>
+                  <td>15 October</td>
+  						  </tr>
+  						  <tr>
+  							  <td>Plato Hall, Square One</td>
+  						  </tr>
+  				      </table>
+                <p style="text-align: left;margin-left: 1rem" class="text-muted">
+  						  Data Science is a multidisciplinary field that has its root in statics, math and computer science and ishighly in demand. It is widely used in health-care, banking, consultancy services, and e-commerce industries.
+                </p>
+  			        <button class="btn btn-outline-info">VIEW DETAIL</button>
+  				  </div>
+  		    </div>
+  		  </center>
+      </div>
+      <div class="col-lg-6 col-sm-12 col-xs-12"  style="margin-top:40px;" >
+      	<h1 class="text-info"><b><b>150+</b></b></h1>
+      	<h1 style="margin-bottom: 3rem"><b><b>Workshops</b></b></h1>
+      	<h1 class="text-info" style="text-align: right;margin-right: 1rem"><b><b>60+</b></b></h1>
+      	<h1 style="text-align: right;margin-right:1rem;margin-bottom: 3rem"><b><b>Hackathons</b></b></h1>
+      	<h1 class="text-info"><b><b>100+</b></b></h1>
+      	<h1 id="events" name="events"><b><b>Expert Talks</b></b></h1>
+      </div>
+    </div>
+    <center >
+      <h1 >
+      	IF YOU STILL WANT TO KNOW MORE,
+      </h1>
+      <h2 style="margin-bottom: 2rem">
+      	CLICK ON THE APPROPRIATE CATEGORY
+      </h2>
+    </center>
+    <center>
+      <div class="row" style="margin-bottom: 80px" >
+        <a href="./pastevents.html">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="knowmore-panel panel shadow">
+                  <div class="panel-body">
+                    <center>
+                      <img src="./images/calendar-tick-512.png" style="height: 8rem;width: 8rem;margin-top: 1rem">
+                      <h3><b>PAST EVENTS</b></h3>
+                    </center>
+                  </div>
+                </div>
+              </div>
+        </a>
+      	<a href="./conferences.html">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="knowmore-panel panel shadow">
+                  <div class="panel-body">
+                    <center>
+                      <img src="./images/32-512.png" style="height: 8rem;width: 8rem;margin-top: 1rem">
+                      <h3><b>CONFERENCES</b></h3>
+                    </center>
+                  </div>
+                </div>
+              </div>
+        </a>
+      	<a href="workshop.html">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="knowmore-panel panel shadow">
+                  <div class="panel-body">
+                    <center>
+                      <img src="./images/1476287791193.png" style="height: 8rem;width: 8rem;margin-top: 1rem">
+                      <h3><b>WORKSHOPS</b></h3>
+                    </center>
+                  </div>
+                </div>
+              </div>
+        </a>
+        <a href="./events.html">
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+              <div class="knowmore-panel panel shadow">
+                <div class="panel-body">
+                  <center>
+                    <img src="./images/233-512.png" style="height: 8rem;width: 8rem;margin-top: 1rem">
+                    <h3><b>UPCOMING</b></h3>
+                  </center>
+                </div>
+              </div>
+            </div></a>
+      </div >
+    </center>
+    <h1 style="text-align: center;font-size: 2rem">WE KNOW YOU'VE GOT SOME QUESTIONS...?</h1><br>
+    <div class="row" id="events">
+      <div class="col-lg-6 col-sm-12 col-xs-12" style="margin-bottom: 80px;">
+        <center>
+          <div class="ques-panel panel shadow" align="right">
+            <div class="panel-body">
+              <img src="./images/undraw_goals_w8tw.png" width="100%">
+              <h1 style="font-size: 1.5rem;text-align: center">WHAT WE DO AT ACM?</h1>
+              <div class="container">
+                <p style="font-size: 1rem;text-align: start">
+                  We organize technical as well as 
+                  fun events for the students of 
+                  Chitkara University.<br>
+                  We also organize workshops in 
+                  which students can participate 
+                  and work on latest technologies 
+                  apart from their studies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </center>
+      </div> 
+      <div class="col-lg-6 col-sm-12 col-xs-12" style="margin-bottom: 80px;">
+        <center>
+          <div class="ques-panel panel shadow" align="right" >
+            <div class="panel-body">
+              <img src="./images/undraw_circles_y7s2.png" width="100%"/>
+              <h1 style="font-size: 1.5rem;text-align: center">HOW TO JOIN ACM?</h1>
+              <div class="container" >
+                <p style="font-size: 1rem;text-align: start" >
+                  We conduct interviews 
+                  for students of Chitkara University. 
+                  The students who clear the 
+                  interview will be registered at 
+                  ACM India.<br>
+                  Then the student will be the 
+                  official member of ACM Chapter. 
+                </p>
+              </div >  
+            </div>
+          </div>
+        </center><div id="officebearers" name="officebearers"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--
+	<h1 style="text-align: center;font-size: 2rem">WE KNOW YOU'VE GOT SOME QUESTIONS...?</h1>
+	<br>
+	<center>
+		<table style="margin-bottom: 80px;">
+			<tr>
+				<td>
+					<div class="ques-panel panel shadow" align="right" style="margin-right: 2rem">
+						<div class="panel-body">
+							<img src="./images/undraw_goals_w8tw.png" width="100%">
+							<h1 style="font-size: 1.5rem;text-align: center">WHAT WE DO AT ACM?</h1>
+							<div class="container">
+								<p style="font-size: 1rem;text-align: start">
+									We organize technical as well as 
+									fun events for the students of 
+									Chitkara University.<br>
+									We also organize workshops in 
+									which students can participate 
+									and work on latest technologies 
+									apart from their studies.
+								</p>
+							</div>
+						</div>
+					</div>
+				</td>
+				<td>
+					<div class="ques-panel panel shadow" align="right" style="margin-left: 2rem">
+						<div class="panel-body">
+							<img src="./images/undraw_circles_y7s2.png" width="100%"/>
+							<h1 style="font-size: 1.5rem;text-align: center">HOW TO JOIN ACM?</h1>
+							<div class="container">
+								<p style="font-size: 1rem;text-align: start">
+									We conduct interviews 
+									for students of Chitkara University. 
+									The students who clear the 
+									interview will be registered at 
+									ACM India.<br>
+									Then the student will be the 
+									official member of ACM Chapter. 
+								</p>
+							</div>  
+						</div>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</center>
+</div>
+</div>
+-->
+
+<!-- Office Bearers-->
+<div class="bg-info" style="width: 100%;overflow-x: hidden;" >
+	<center>
+		<h1 style="color: white;"><br>OFFICE BEARERS</h1>
+		<h3 style="color: white;margin-bottom: 60px">Meet the persons behind the scenes, who make it all happen.</h3>
+	</center>
+	<center>
+		<div class="row">
+			<div class="col-xs-6 col-sm-6 col-mg-4 col-lg-3" style="margin-bottom: 2rem">
+        		<center>
+          			<div class="bearers-panel panel">
+            			<div class="panel-body">
+              				<img src="./images/IMG20191204124213_-_Aniket_Chanana_225x225.jpg" style="margin-top: 1rem; width:14rem; border-radius: 150px;">
+              				<div style="margin-top: 1rem"><b>ANIKET CHANANA</b></div>
+              				<div>PRESIDENT</div>
+              				<div>
+                				<span><a href="http://github.com/aniketchanana/"><img src="./images/Path 548.png" style="height: 2rem;width: 2rem"></a></span>
+                				<span><a href="https://www.linkedin.com/in/aniket-chanana-470471147/"><img src="./images/Popular_Social_Media-22-512.png" style="height: 4rem;width: 4rem"></a></span>
+                				<span><a href="aniketchanana6@gmail.com"><img src="./images/Path 549.png" style="height: 2rem;width: 2rem"></a></span>
+        			      	</div>
+        			      	<p>+91-9588195330</p>
+        			    </div>
+        			 </div>
+        		</center>
+        	</div>
+
+      <div class="col-xs-6 col-sm-6  col-lg-3" style="margin-bottom: 2rem;">
+        <center>
+          <div class="bearers-panel panel">
+            <div class="panel-body">
+              <img src="./images/IMG_20180527_184524_-_Shivam_Garg_225x225.jpg" style="margin-top: 1rem; width:14rem; border-radius: 150px;" >
+              <div style="margin-top: 1rem"><b>SHIVAM GARG</b></div>
+              <div>CHAIRPERSON</div>
+              <div>
+                <span><a href="https://www.github.com/15999shivam"><img src="./images/Path 548.png" style="height: 2rem;width: 2rem"></a></span>
+                <span><a href="https://www.linkedin.com/in/shivam-garg-4b806b15b"><img src="./images/Popular_Social_Media-22-512.png" style="height: 4rem;width: 4rem"></a></span>
+                <span><a href="shivamgarg260@gmail.com"><img src="./images/Path 549.png" style="height: 2rem;width: 2rem"></a></span>
+              </div>
+              <p>+91-8168386500</p>
+            </div>
+          </div>
+        </center>
+      </div>
+
+      <div class="col-xs-6 col-sm-6 col-mg-4 col-lg-3"  style="margin-bottom: 2rem">
+        <center>
+          <div class="bearers-panel panel">
+            <div class="panel-body">
+              <img src="./images/ITOR1674_-_utkarsh_225x225.jpg" style="margin-top: 1rem; width:14rem; border-radius: 150px;">
+              <div style="margin-top: 1rem"><b>UTKARSH</b></div>
+              <div> VICE PRESIDENT</div>
+              <div>
+                <span><a href="https://github.com/utkarsh-nagpal"><img src="./images/Path 548.png" style="height: 2rem;width: 2rem"></a></span>
+                <span><a href="https://www.linkedin.com/in/utkarsh-nagpal-b1747416b/"><img src="./images/Popular_Social_Media-22-512.png" style="height: 4rem;width: 4rem"></a></span>
+                <span><a href="utkarsh1820.cse18@chitkara.edu.in"></a><img src="./images/Path 549.png" style="height: 2rem;width: 2rem"></span>
+              </div>
+              <p>+91-8572042465</p>
+            </div>
+          </div>
+        </center>
+      </div>
+
+      <div class="col-xs-6 col-sm-6 col-mg-4 col-lg-3" style="margin-bottom: 2rem">
+        <center>
+          <div class="bearers-panel panel">
+            <div class="panel-body">
+              <img src="./images/DSC_0486a_-_Jagriti_sehgal_225x225.jpg" style="margin-top: 1rem; width:14rem; border-radius: 150px;">
+              <div style="margin-top: 1rem"><b>JAGRITI SEHGAL</b></div>
+              <div style="margin-bottom: 15px;">ON-CHAIR</div>
+              <div><div>
+                
+                <span style="margin: 20px">&nbsp;</span>
+                <span><a href="jagriti.sehgal23@gmail.com"><img src="./images/Path 549.png" style="height: 2rem;width: 2rem;"></a></span><span style="margin: 20px"></span>
+              </div>
+                
+              <p style="margin-top: 15px;">+91-9467923500</p>
+            </div>
+          </div>
+        </center>
+      </div>
+		</div>
+	</center>
+  <center>
+    <div class="row">
+      <div class="col-xs-6 col-sm-6 col-mg-4 col-lg-3" style="margin-bottom: 2rem">
+        <center>
+          <div class="bearers-panel panel">
+          	<div class="panel-body">
+              <img src="./images/IMG-20190619-WA0022_-_Hardik_Gera_225x225.jpg" style="margin-top: 1rem; width:14rem; border-radius: 150px;">
+              <div style="margin-top: 1rem"><b>HARDIK GERA</b></div>
+              <div>PROMOTION HEAD</div>
+              <div>
+              <span><a href="https://github.com/Hardik376"><img src="./images/Path 548.png" style="height: 2rem;width: 2rem"></a></span>
+                <span><a href="https://in.linkedin.com/in/hardik-gera-5a605a15b"><img src="./images/Popular_Social_Media-22-512.png" style="height: 4rem;width: 4rem"></a></span>
+                <span><a href="hardikgera376@gmail.com"><img src="./images/Path 549.png" style="height: 2rem;width: 2rem"></a></span>
+              </div>
+              <p >+91-9915158149</p>
+            </div>
+          </div>
+        </center>
+      </div>
+
+      <div class="col-xs-6 col-sm-6 col-mg-4 col-lg-3" style="margin-bottom: 2rem">
+        <center>
+          <div class="bearers-panel panel">
+          <div class="panel-body">
+              <img src="./images/imge.jpg" style="margin-top: 1rem; width:14rem; border-radius: 150px;">
+              <div style="margin-top: 1rem"><b>HARSIMRAN SAINI</b></div>
+              <div style="margin-bottom: 15px">MEDIA HEAD</div>
+              <div>
+                <span><a href="https://github.com/singhjasu17"><img src="./images/Path 548.png" style="height: 2rem;width: 2rem"></a></span>
+                <span style="margin: 10px"></span>
+                <span><a href="harsi7828@gmail.com"><img src="./images/Path 549.png" style="height: 2rem;width: 2rem"></a></span>
+              </div>
+              <p style="margin-top: 15px">+91-7529047894</p>
+            </div>
+          </div>
+        </center>
+      </div>
+
+      <div class="col-xs-6 col-sm-6 col-mg-4 col-lg-3" style="margin-bottom: 2rem">
+        <center>
+          <div class="bearers-panel panel">
+            <div class="panel-body">
+              <img src="./images/IMG-20190803-WA0016_-_Kushal_Bansal_225x225.jpg" style="margin-top: 1rem; width:14rem; border-radius: 150px;">
+              <div style="margin-top: 1rem"><b>KUSHAL BANSAL</b></div>
+              <div>EXECUTIVE HEAD</div>
+              <div>
+                <span><a href="https://github.com/kushal1611"><img src="./images/Path 548.png" style="height: 2rem;width: 2rem"></a></span>
+                <span><a href="https://www.linkedin.com/in/kushal-b-85818611a"><img src="./images/Popular_Social_Media-22-512.png" style="height: 4rem;width: 4rem"></a></span>
+                <span><a href="Kushalbansal0006@gmail.com"><img src="./images/Path 549.png" style="height: 2rem;width: 2rem"></a></span>
+              </div>
+              <p>+91-9877850347</p>
+            </div>
+          </div>
+        </center>
+      </div>
+
+       <div class="col-xs-6 col-sm-6 col-mg-4 col-lg-3" style="margin-bottom: 2rem">
+        <center>
+          <div class="bearers-panel panel">
+            <div class="panel-body">
+              <img src="./images/WhatsApp_Image_2020-01-23_at_10.35.54_AM_225x225.jpeg" style="margin-top: 1rem; width:14rem; border-radius: 150px;">
+              <div style="margin-top: 1rem"><b>VAIBHAV CHOTANI</b></div>
+              <div style="margin-bottom: 15px">ANDROID HEAD</div>
+              <div>
+                <span><a href="Git-github.com/VaibhavChotani"><img src="./images/Path 548.png" style="height: 2rem;width: 2rem"></a></span>
+                <span style="margin: 10px"></span>
+                <span><a href=" vaibhav1141.cse18@chitkara.edu.in"><img src="./images/Path 549.png" style="height: 2rem;width: 2rem"></a></span>
+              </div>
+              <p style="margin-top: 15px">+91-9115695845</p>
+            </div>
+          </div>
+        </center>
+      </div>
+      
+    </div>
+  </center>
+
+
+<div class="col-xs-6 col-sm-6 col-mg-4 col-lg-3" style="margin-bottom: 2rem">
+        <center>
+          <div class="bearers-panel panel">
+            <div class="panel-body">     
+              <img src="./images/IMG_20191017_222818_-_Akash_Srivastava_225x225.jpg" style="margin-top: 1rem; width:14rem; border-radius: 150px;">
+              <div style="margin-top: 1rem"><b>AKASH</b></div>
+              <div>WEB MASTER</div>
+              <div>
+                <span><a href="https://github.com/akashkumar59200"><img src="./images/Path 548.png" style="height: 2rem;width: 2rem; "></a></span>
+                <span><a href="https://www.linkedin.com/in/akash-kumar-818419160"><img src="./images/Popular_Social_Media-22-512.png" style="height: 4rem;width: 4rem"></a></span>
+                <span><a href="akash1064.cse18@chitkara.edu.in"><img src="./images/Path 549.png" style="height: 2rem;width: 2rem"></a></span>
+              </div>
+              <p>+91-6283772660</p>
+             
+            </div>
+          </div>
+        </center>
+      </div></div >
+      
+    </div>
+  </center>
+</div >
+
+<!-- Contact Us-->
+
+
+<div class="container-fluid" style="margin-top: 80px;margin-bottom: 80px" >
+  <center >
+    <h1  id="contact" name="contact">CONTACT US</h1>
+    <p style="margin-bottom: 40px">Got a question or any query? Feel free to reach us!</p>
+  </center>
+  <div class="row" >
+    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6">
+      
+<div style="width: 100%;"><iframe width="100%" height="463" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=Chitkara%20University%2C%20Rajpura%2C%20Punjab+(Chitkara%20University)&ie=UTF8&t=h&z=17&iwloc=B&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.mapsdirections.info/en/journey-planner.htm">Route Finder</a></iframe></div><br /> 	
+    </div>
+    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6">
+      <form>
+        <table class="table borderless">
+          <tr>
+            <td>
+              <input type="text" name="firstname" placeholder="First name" class="form-control">
+            </td>
+            <td>
+              <input type="text" name="lastname" placeholder="Last name" class="form-control">
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="text" name="subject" placeholder="Subject" class="form-control">
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="email" name="email" placeholder="Email" class="form-control">
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <textarea class="form-control" rows="8" id="comment" placeholder="Write your message here."></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button type="submit" class="btn btn-primary">&emsp;SEND MESSAGE&emsp;</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div>
+</div>
+<div section="footer" class="bg-info" style="border-top-left-radius: 10px;border-top-right-radius: 10px;color: white">
+  <center>
+    <p>
+      <br>
+      Copyright © 2020 ACM CHAPTER. All Rights Reserved.<br>
+      Site Developed <b>ACM WEB TEAM</b>
+      <br><br>
+    </p>
+  </center>
+</div>
+</body>
+</html>
